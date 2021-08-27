@@ -1,0 +1,10 @@
+parameters:
+    level: 8
+    paths:
+        - src
+    bootstrapFiles:
+        - src/aliases.php
+    excludePaths:
+        - src/aliases.php
+    featureToggles:
+        disableRuntimeReflectionProvider: true
