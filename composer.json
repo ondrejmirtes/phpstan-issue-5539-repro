@@ -3,9 +3,6 @@
         "phpstan/phpstan": "^0.12.96"
     },
     "autoload": {
-        "files": [
-            "src/aliases.php"
-        ],
         "psr-4": {
             "App\\": "src"
         }
